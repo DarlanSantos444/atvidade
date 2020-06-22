@@ -2,9 +2,6 @@
     
     $comb   =   $_POST['combustivel'];
     $dist   =   $_POST['distancia'];;
-    
-    //$dist   =   500;
-    //$comb   =   50;
 
     function consumo($dist_percorrida,$comb_gasto){
         $consumo_medio = ($dist_percorrida/$comb_gasto);
