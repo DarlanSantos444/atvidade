@@ -3,19 +3,20 @@
     <?php
         include "pages/header.php";
     ?>
-
-   
+  <link href="starter-template.css" rel="stylesheet">
     <!-- Begin page content -->
-    <main role="main" class="flex-shrink-0">
-    <div class="container">
-        <?php
-            include "pages/saudacao.php";
-        ?>
-        <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-        <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>main &gt; .container</code>.</p>
-        <p>Back to <a href="/docs/4.5/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+    <main role="main" class="container">
 
+    <div class="starter-template">
+    
+    <img src="dist/img/foto.jpeg" alt="Imagem" height="150px" height="150px" >
+    
+    <h2>Análise e Desenvolvimento de Sistemas</h2>
+    <h1>Darlan Santos</h1>
+    <h3>Aividade PHP</h3>
+    <p class="lead"><a href="https://api.whatsapp.com/send?phone=5588999383633">Whatsapp</a><br><a href="https://www.instagram.com/darlansantos15/">Instagram</a></p>
     </div>
+
     </main>
 
     <?php

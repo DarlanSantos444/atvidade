@@ -7,7 +7,7 @@
   
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">Olá continuando nossa aulas!.</span>
+    <span class="text-muted">GIT HUB</span>
   </div>
 </footer>
 
