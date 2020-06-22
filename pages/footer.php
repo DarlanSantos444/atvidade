@@ -7,7 +7,7 @@
   
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">GIT HUB</span>
+  <span class="text-muted">Site desenvolvido por Darlan - Code in <a target="_blank" href="https://github.com/DarlanSantos444/atvidade.git">GitHub</a> </span>
   </div>
 </footer>
 
