@@ -29,15 +29,15 @@
         <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Questões</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                      <a class="dropdown-item" href="q1.html">Questão 1</a>
-                      <a class="dropdown-item" href="q2.html">Questão 2</a>
-                      <a class="dropdown-item" href="q3.html">Questão 3</a>
-                      <a class="dropdown-item" href="q4.html">Questão 4</a>
-                      <a class="dropdown-item" href="q4.html">Questão 5</a>
-                      <a class="dropdown-item" href="q4.html">Questão 6</a>
-                      <a class="dropdown-item" href="q4.html">Questão 7</a>
-                      <a class="dropdown-item" href="q4.html">Questão 8</a>
-                      <a class="dropdown-item" href="q4.html">Questão 9</a>
+                      <a class="dropdown-item" href="q1.php">Questão 1</a>
+                      <a class="dropdown-item" href="q2.php">Questão 2</a>
+                      <a class="dropdown-item" href="q3.php">Questão 3</a>
+                      <a class="dropdown-item" href="q4.php">Questão 4</a>
+                      <a class="dropdown-item" href="q4.php">Questão 5</a>
+                      <a class="dropdown-item" href="q4.php">Questão 6</a>
+                      <a class="dropdown-item" href="q7.php">Questão 7</a>
+                      <a class="dropdown-item" href="q4.php">Questão 8</a>
+                      <a class="dropdown-item" href="q4.php">Questão 9</a>
                       <a class="dropdown-item" href="q10.php">Questão 10</a>
                     </div>
                   </li>
