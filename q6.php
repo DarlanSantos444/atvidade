@@ -17,7 +17,7 @@ para o usuário o valor original, o valor do desconto e o valor com o desconto.<
     
     $preco = $_POST['valor'];
     $valordesconto = ($preco*0.07);
-    $valorfinal = ($preco-$val_desconto);
+    $valorfinal = $preco - $valordesconto;
     
 ?>
 
@@ -34,7 +34,7 @@ para o usuário o valor original, o valor do desconto e o valor com o desconto.<
                             <form class="forms-sample" id="formSoma" name="formSoma" action="" method="POST">
                                 <div class="form-group">
                                     <label for="exampleInputUsername1">Valor do Produto:</label>
-                                    <input type="number" class="form-control" id="produto" name="produto" required>
+                                    <input type="number" class="form-control" id="valor" name="valor" required>
                                 </div>
                               
                                 <button type="submit" class="btn btn-info">Calcular</button>
@@ -49,9 +49,9 @@ para o usuário o valor original, o valor do desconto e o valor com o desconto.<
                         <div class="card-body">
                             <h4 class="card-title">Resultado<i class="mdi mdi-file-document-box"></i></h4>
                             <div id="traffic-chart-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
-                            <p><?php echo "Valor do Produto : R$ "$preco".";?></p><br>
-                            <p><?php echo "Valor com Desconto: R$ "$valorfinal".";?></p><br>
-                            <p><?php echo "Teve Desconto de : R$ "$valordesconto".";?></p>
+                            <p><?php echo "Valor do Produto : R$ ".$preco.;?></p><br>
+                            <p><?php echo "Valor com Desconto: R$ ".$valorfinal.;?></p><br>
+                            <p><?php echo "Teve Desconto de : R$ ".$valordesconto.;?></p>
                         </div>
                         <!--Conteudo do card-->
 

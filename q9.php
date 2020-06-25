@@ -16,7 +16,7 @@
 <?php
     $preco    =   $_POST['valor'];
     $valoraumento = ($preco*0.16);
-    $soma = ($val_desconto+$preco);
+    $soma = ($valoraumento+$preco);
     $valorparcela = ($soma/10);
 ?>
 
@@ -33,7 +33,7 @@
                             <form class="forms-sample" id="formSoma" name="formSoma" action="" method="POST">
                                 <div class="form-group">
                                     <label for="exampleInputUsername1">Valor do Produto:</label>
-                                    <input type="number" class="form-control" id="produto" name="produto" required>
+                                    <input type="number" class="form-control" id="valor" name="valor" required>
                                 </div>
                               
                                 <button type="submit" class="btn btn-info">Calcular</button>
@@ -48,9 +48,9 @@
                         <div class="card-body">
                             <h4 class="card-title">Resultado<i class="mdi mdi-file-document-box"></i></h4>
                             <div id="traffic-chart-legend" class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
-                            <p><?php echo "Valor do Produto : R$ "$preco".";?></p><br>
-                            <p><?php echo "Valor Total com aumento: R$ "$soma".";?></p><br>
-                            <p><?php echo "Valor da parcela: R$ "$valorparcela".";?></p>
+                            <p><?php echo "Valor do Produto : R$ ".$preco.;?></p><br>
+                            <p><?php echo "Valor Total com aumento: R$ ".$soma.;?></p><br>
+                            <p><?php echo "Valor da parcela: R$ ".$valorparcela.;?></p>
                         </div>
                         <!--Conteudo do card-->
 
