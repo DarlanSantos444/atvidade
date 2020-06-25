@@ -93,7 +93,7 @@
   <!-- /.content-wrapper -->
 
   <?php
-    include "_includes/footer.php";
+    include "pages/footer.php";
   ?>
 
 
